@@ -5,7 +5,7 @@ for(let button of btns){
     button.addEventListener('click',(e)=>{
         const text = e.target.innerText;
         if(text=='AC'){
-            inp.val="";
+            inp.value="";
         }
         else if(text=='D'){
             inp.value=inp.value.slice(0,-1);
